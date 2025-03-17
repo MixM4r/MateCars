@@ -1,1 +1,42 @@
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Warsztat Samochodowy XYZ</h1>
+        <nav>
+            <ul>
+                <li><a href="#uslugi">Usługi</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <section id="uslugi">
+        <h2>Nasze Usługi</h2>
+        <ul>
+            <li>Diagnostyka komputerowa</li>
+            <li>Wymiana opon</li>
+            <li>Naprawy mechaniczne</li>
+            <li>Serwis klimatyzacji</li>
+        </ul>
+    </section>
+
+    <section id="galeria">
+        <h2>Galeria</h2>
+        <img src="warsztat1.jpg" alt="Warsztat samochodowy" width="300">
+        <img src="warsztat2.jpg" alt="Naprawa auta" width="300">
+    </section>
+
+    <section id="kontakt">
+        <h2>Kontakt</h2>
+        <p>Adres: ul. Mechaników 12, 00-000 Miasto</p>
+        <p>Telefon: 123-456-789</p>
+        <p>Email: kontakt@warsztat.pl</p>
+    </section>
+
+    <footer>
+        <p>© 2024 Warsztat Samochodowy XYZ. Wszystkie prawa zastrzeżone.</p>
+    </footer>
+</body>
+</html>
