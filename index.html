@@ -3,62 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Warsztat Samochodowy MateCars</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <title>Warsztat Samochodowy XYZ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-
     <header>
-        <div class="container">
-            <h1>Warsztat Samochodowy MateCars</h1>
-        </div>
+        <h1>Warsztat Samochodowy XYZ</h1>
+        <nav>
+            <ul>
+                <li><a href="#uslugi">Usługi</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main class="container">
-        <section class="about">
-            <h2>O nas</h2>
-            <p>Firma MateCars zajmuje się obsługą mechaniczną samochodów. Zapraszamy na sezonową wymianę opon oraz sprzedaż opon nowych i używanych.</p>
-            <p>Oferujemy pełny serwis mechaniczny samochodów osobowych, wulkanizację, serwis klimatyzacji, diagnostykę komputerową, pranie tapicerki oraz myjnię.</p>
-            <p>Sprawdź nasze opinie na Google: <a href="https://maps.app.goo.gl/d2oB6y5p7aGnemEq7" target="_blank" class="opinion-link">Warsztat MateCars Opinie</a></p>
-            <img src="matecarsw.jpeg" alt="MateCars" class="about-image">
-        </section>
+    <section id="uslugi">
+        <h2>Nasze Usługi</h2>
+        <ul>
+            <li>Diagnostyka komputerowa</li>
+            <li>Wymiana opon</li>
+            <li>Naprawy mechaniczne</li>
+            <li>Serwis klimatyzacji</li>
+        </ul>
+    </section>
 
-        <section class="pricing">
-            <h2>Cennik usług mechanicznych</h2>
-            <ul>
-                <li>Serwis olejowy: 60 zł</li>
-                <li>Wymiana kompletu filtrów: 100 zł</li>
-                <li>Wymiana klocków hamulcowych przód: 120 zł</li>
-                <li>Wymiana klocków hamulcowych tył: 120 zł</li>
-                <li>Wymiana łączników stabilizatora przód: 100 zł</li>
-                <li>Wymiana końcówki drążka kierowniczego: 100-120 zł</li>
-                <li>Wymiana sworznia wahacza: 100 zł</li>
-                <li>Wymiana amortyzatora (kolumna McPherson): 180 zł</li>
-                <li>Wymiana amortyzatora tył: 120 zł</li>
-                <li>Wymiana świec zapłonowych: 120 zł</li>
-                <li>Wymiana piasty koła: 150-250 zł</li>
-                <li>Wymiana chłodnicy: 320 zł</li>
-                <li>Zbieżność kół przód: 200 zł</li>
-            </ul>
-        </section>
+    <section id="galeria">
+        <h2>Galeria</h2>
+        <img src="warsztat1.jpg" alt="Warsztat samochodowy" width="300">
+        <img src="warsztat2.jpg" alt="Naprawa auta" width="300">
+    </section>
 
-        <!-- Kontakt po cenniku -->
-        <section class="contact">
-            <h3 style="color: #ffcc00; text-align: center;">Kontakt</h3> <!-- Żółty nagłówek -->
-            <p class="contact-info" style="text-align: center; color: white;">
-                Telefon: 577-315-818<br>
-                Adres: Młodnicka 52, 04-239 Warszawa
-            </p>
-        </section>
-    </main>
+    <section id="kontakt">
+        <h2>Kontakt</h2>
+        <p>Adres: ul. Mechaników 12, 00-000 Miasto</p>
+        <p>Telefon: 123-456-789</p>
+        <p>Email: kontakt@warsztat.pl</p>
+    </section>
 
     <footer>
-        <div class="container">
-            <p style="text-align: center;">© 2025 MateCars. Wszelkie prawa zastrzeżone.</p>
-        </div>
+        <p>© 2024 Warsztat Samochodowy XYZ. Wszystkie prawa zastrzeżone.</p>
     </footer>
-
 </body>
 </html>
-
